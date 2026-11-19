@@ -1,0 +1,30 @@
+#!/bin/bash
+#PBS -N FAPROTAX_euk
+#PBS -l nodes=1:ppn=8
+#PBS -l mem=64gb
+#PBS -l walltime=24:00:00
+#PBS -j oe
+#PBS -o /public/home/liruojing/fish_16S_merge/analysis_A_global/eukaryota_filtered/FAPROTAX/logs/faprotax_pbs.log
+
+set -euo pipefail
+
+BASE=/public/home/liruojing/fish_16S_merge/analysis_A_global/eukaryota_filtered/FAPROTAX
+PYTHON=/public/home/liruojing/miniconda3/envs/qiime2_new/bin/python
+SCRIPT=/public/home/liruojing/fish_16s_demo/FAPROTAX_1.2.12/collapse_table.py
+DBFILE=/public/home/liruojing/fish_16s_demo/FAPROTAX_1.2.12/FAPROTAX.txt
+
+INPUT=$BASE/faprotax_input.tsv
+OUTPUT=$BASE/functional_table.tsv
+REPORT=$BASE/report.txt
+LOG=$BASE/logs/faprotax_run.log
+
+echo "========== FAPROTAX START =========="
+date
+echo "Node: $(hostname)"
+echo "Input: $INPUT"
+
+"$PYTHON" "$SCRIPT" -i "$INPUT" -g "$DBFILE" -o "$OUTPUT" -r "$REPORT" -l "$LOG" -d Taxonomy --column_names_are_in first_data_line --output_format_collapsed classical
+
+echo "========== FAPROTAX FINISHED =========="
+date
+ls -lh "$OUTPUT" "$REPORT" "$LOG"

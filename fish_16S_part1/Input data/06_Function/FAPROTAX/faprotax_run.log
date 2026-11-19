@@ -1,0 +1,5 @@
+/public/home/liruojing/fish_16S_merge/analysis_A_global/eukaryota_filtered/FAPROTAX/functional_table.tsv:
+  Table '/public/home/liruojing/fish_16S_merge/analysis_A_global/eukaryota_filtered/FAPROTAX/faprotax_input.tsv' collapsed according to groups defined in '/public/home/liruojing/fish_16s_demo/FAPROTAX_1.2.12/FAPROTAX.txt'
+  Generated on: 2026.11.13 21:43:18
+  Used command: /public/home/liruojing/fish_16s_demo/FAPROTAX_1.2.12/collapse_table.py -i /public/home/liruojing/fish_16S_merge/analysis_A_global/eukaryota_filtered/FAPROTAX/faprotax_input.tsv -g /public/home/liruojing/fish_16s_demo/FAPROTAX_1.2.12/FAPROTAX.txt -o /public/home/liruojing/fish_16S_merge/analysis_A_global/eukaryota_filtered/FAPROTAX/functional_table.tsv -r /public/home/liruojing/fish_16S_merge/analysis_A_global/eukaryota_filtered/FAPROTAX/report.txt -l /public/home/liruojing/fish_16S_merge/analysis_A_global/eukaryota_filtered/FAPROTAX/logs/faprotax_run.log -d Taxonomy --column_names_are_in first_data_line --output_format_collapsed classical
+

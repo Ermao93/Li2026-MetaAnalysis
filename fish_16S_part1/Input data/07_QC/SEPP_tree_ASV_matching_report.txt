@@ -1,0 +1,9 @@
+SEPP tree and rarefied ASV matching report
+=========================================
+Rarefied table ASVs: 35686
+SEPP tree tips: 303994
+Representative sequences: 100542
+Rarefied ASVs in representative sequences: 35686 (100.00%)
+Rarefied ASVs in SEPP tree: 35686 (100.00%)
+Unmatched rarefied ASVs: 0
+Conclusion: all rarefied ASVs are represented in the SEPP tree.

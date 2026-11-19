@@ -1,0 +1,24 @@
+[2026-11-13 21:33:46][INFO][161922.mgr] In prologue, JOB_ID is 161922.mgr
+[2026-11-13 21:33:46][INFO][161922.mgr] In prologue, the pbs_server_name is mgr.
+mgr
+[2026-11-13 21:33:46][INFO][161922.mgr] ########################  Job 161922.mgr start to execute pre.sh!   ##########################
+[2026-11-13 21:33:46][INFO][161922.mgr] Goldenable & storageenable both are false, job ran without making reserve!
+========== FAPROTAX START ==========
+Fri Nov 13 21:33:47 CST 2026
+Node: node8
+Input: /public/home/liruojing/fish_16S_merge/analysis_A_global/eukaryota_filtered/FAPROTAX/faprotax_input.tsv
+  ERROR: Groups file '6001' does not exist or is not a file
+[2026-11-13 21:37:39][INFO][161924.mgr] In prologue, JOB_ID is 161924.mgr
+[2026-11-13 21:37:39][INFO][161924.mgr] In prologue, the pbs_server_name is mgr.
+mgr
+[2026-11-13 21:37:40][INFO][161924.mgr] ########################  Job 161924.mgr start to execute pre.sh!   ##########################
+[2026-11-13 21:37:40][INFO][161924.mgr] Goldenable & storageenable both are false, job ran without making reserve!
+========== FAPROTAX START ==========
+Fri Nov 13 21:37:40 CST 2026
+Node: node8
+Input: /public/home/liruojing/fish_16S_merge/analysis_A_global/eukaryota_filtered/FAPROTAX/faprotax_input.tsv
+========== FAPROTAX FINISHED ==========
+Fri Nov 13 21:43:27 CST 2026
+-rw-r--r-- 1 liruojing shengwu 611K Nov 13 21:43 /public/home/liruojing/fish_16S_merge/analysis_A_global/eukaryota_filtered/FAPROTAX/functional_table.tsv
+-rw-r--r-- 1 liruojing shengwu 1.1K Nov 13 21:43 /public/home/liruojing/fish_16S_merge/analysis_A_global/eukaryota_filtered/FAPROTAX/logs/faprotax_run.log
+-rw-r--r-- 1 liruojing shengwu 3.5M Nov 13 21:43 /public/home/liruojing/fish_16S_merge/analysis_A_global/eukaryota_filtered/FAPROTAX/report.txt
